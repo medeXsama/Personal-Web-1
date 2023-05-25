@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="bleeh.jpg" alt="logo">
+                </span>
+                <div class="text header-text">
+                    <span class="nama">Dintara</span>
+                    <span class="profesi">Web developer</span>
+                </div>
+            </div>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <i class='bx bx-search-alt icon' ></i>
+                        <input type="text" placeholder="Search...">
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#Home">
+                            <i class='bx bx-home icon'></i>
+                                <span class="text nav-text">Home</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#About_Me">
+                            <i class='bx bx-cool icon'></i>
+                                <span class="text nav-text">About Me</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#Skills">
+                            <i class='bx bx-bulb icon' ></i>
+                                <span class="text nav-text">Skills</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#Socials">
+                            <i class='bx bxl-instagram icon' ></i>
+                                <span class="text nav-text">Socials</span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon' ></i>
+                        <i class='bx bx-sun icon sun' ></i>
+                    </div>
+                    <span class="mode-text text">Dark Mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Home" class="home">
+        <div class="text"></div>
+        <div class="text" style="color:white; font-size:xxx-large; text-align: center; margin-top: 21%;">Hello, I'm Dintara.<br>Welcome to my Personal Web.</div>
+    </section>
+    <section id="About_Me" class="home">
+        <div class="text">About Me</div>
+        <div class="col-4 center padding-16" style="float:left; margin-top: 10%;">
+            <img class="circle" style="width:256px; height:256px;" src="bleeh.jpg"/>
+        </div>
+        <div class="text col-10 padding-16" style="font-size:x-large; text-align: left; margin-top: 15%;">
+            My full name is Galbin Jausarn Dintara, I'm 19 years old and I'm from Indonesia.<br></br>
+            Now I'm still a student of Universitas Sultan Ageng Tirtayasa, majoring in informatics engineering.
+        </div>
+    </section>
+
+    <section id="Skills" class="home">
+        <div class="text">Skills</div>
+        <div class="text" style="margin-top: 10%;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Subject</th>
+                        <th>Related Project</th>
+                        <th>Desc</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="No.">#1</td>
+                        <td data-label="Subject">Pengantar Teknologi Internet</td>
+                        <td data-label="Related Project">Membuat Personal Web</td>
+                        <td data-label="Desc">Sudah mengerti basic-basic tentang HTML dan CSS tapi masih belajar tentang JS.</td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">#2</td>
+                        <td data-label="Subject">Bahasa Pemrograman 2</td>
+                        <td data-label="Related Project">Membuat aplikasi sederhana dengan Python</td>
+                        <td data-label="Desc">Bahasa nya lebih mudah dipahami daripada C++.</td>
+                    </tr>
+                    <tr>
+                        <td data-label="No.">#3</td>
+                        <td data-label="Subject">Bahasa Pemrograman 1</td>
+                        <td data-label="Related Project">Membuat Aplikasi C++ dengan OOP</td>
+                        <td data-label="Desc">Sudah mengerti tentang C++ nya, namun masih sulit saat diubah menjadi OOP.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="Socials" class="home">
+        <div class="text">Socials</div>
+        <div class="text container">
+            <div class="card">
+                <div class="medsos">
+                    <img src="Twitter.jpg" alt="">
+                </div>
+                <h1>Twitter</h1>
+                <div class="content">
+                    <p>
+                        Tempat untuk ngetik hal-hal random.
+                    </p>
+                    <a href="https://twitter.com/medexsama">Pergi</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="medsos">
+                    <img src="Instagram.webp" alt="">
+                </div>
+                <h1>Instagram</h1>
+                <div class="content">
+                    <p>
+                        Jarang buka tapi boleh lah di-follow.
+                    </p>
+                    <a href="https://www.instagram.com/dintaraa/">Pergi</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="medsos">
+                    <img src="YouTube.png" alt="">
+                </div>
+                <h1>Youtube</h1>
+                <div class="content">
+                    <p>
+                        Cuma buat post tugas-tugas kuliah aja.
+                    </p>
+                    <a href="https://www.youtube.com/@galbin107">Pergi</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="button">
+        <a href="#Home">
+            <i class='bx bx-arrow-to-top' ></i>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
